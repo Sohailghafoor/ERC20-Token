@@ -10,4 +10,4 @@
 7- npx hardhat run scripts/deploy.js --network ropsten - use this command to run/deploy the contract
 8- now install etherscan pakage: npm install --save-dev @nomiclabs/hardhat-etherscan - to veriy things like we can directly verify that our contract is deployed on etherscan.
 9- after updating hardhat.config (add ethersacn api key) run the command npx hardhat verify --network ropsten tokenAddress
-**
+*
