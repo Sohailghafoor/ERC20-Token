@@ -1,4 +1,4 @@
-# ERC20-Token
+**# ERC20-Token
 1- install hardhat 
 2- copy a contract from openzeppelin wizard with burnable, permit, snapshot and roles 
 3- npm install @openzeppelin/contracts - this will install all the nessacssary contract that are require to run our token 
@@ -10,3 +10,4 @@
 7- npx hardhat run scripts/deploy.js --network ropsten - use this command to run/deploy the contract
 8- now install etherscan pakage: npm install --save-dev @nomiclabs/hardhat-etherscan - to veriy things like we can directly verify that our contract is deployed on etherscan.
 9- after updating hardhat.config (add ethersacn api key) run the command npx hardhat verify --network ropsten tokenAddress
+**
